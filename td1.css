@@ -1,0 +1,88 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #B0EDE5;
+}
+header{
+	margin:0;
+	background-color: black;	
+	width: 100%;	
+	font-size: 1.8em;	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 13000;
+	text-align: center;
+}
+header ul{
+	list-style-type: none;
+}
+header ul li{
+	margin: 2px;	
+	color: grey;
+	display: inline-block;
+	border-top: 2px solid white;	
+}
+header ul li:hover{
+	color:white;
+	border-top: 2px solid red;
+}
+header a{
+	text-decoration: none;
+}
+#main{
+	position: relative;
+	width: 990px;
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	border: 1px solid black;
+	display: block;	
+}
+.text-img{
+	width: 702px;
+	margin:0 auto 0 auto;
+	position: relative;
+	top:-40px;
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+}
+.carre{
+	display:inline-block;
+	width: 300px;
+	margin-bottom: 25px;
+	margin-right: 5px;
+	margin-left: 5px;	
+	background-color: white;
+	box-shadow: 1px 1px 1px;	
+}
+.carre h4{
+	text-align: center;
+}
+.carre p{
+	text-align: center;
+	padding: 2px;
+}
+#main ul{
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	list-style-type: none;
+}
+.rectangle{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-bottom: 1px dotted black;
+	padding-bottom: 20px;
+	overflow-y: auto;
+}
+.rectangle img{
+	float: left;
+	margin-right: 10px;	
+}
